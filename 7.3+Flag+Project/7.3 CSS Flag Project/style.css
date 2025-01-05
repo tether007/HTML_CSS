@@ -1,0 +1,36 @@
+/* red */
+.flag{
+    width: 900px;
+    height: 600px;
+    background-color: red;
+    
+}
+
+/*blue*/
+.flag>div{
+    width:900px;
+    height:300px;
+    background-color: blue;
+    position: absolute;/*relative to the nearest ancestor or the top left corner of the*/
+    top: 150px;
+}   
+/* circle */
+.flag>div>div{
+    border-radius: 50%;
+    background-color: antiquewhite;
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    top:50px;
+    left: 350px;
+
+}
+p{
+    margin:0;
+    text-align: center;
+    font-size: 5rem;
+}
+.flag>p{
+    color: white;
+}
+
